@@ -1,0 +1,39 @@
+<head>
+    <title>Surt Voice Commands</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+</head>
+<body>
+    <script src='script.js'></script>
+    <h1>Voice Command Testing</h1>
+
+    <div id='result'></div>
+
+    <h3>Commands:</h3>
+    <ul>
+        <li><code>Hello</code> - display an alert box</li>
+        <li><code>Go to Website</code> - go to my website</li>
+        li><code>Search ___</code>Search the web </li>
+    </ul>
+
+    <h3>Other commands</h3>
+
+    <p>
+        Try saying <code>Ask me my name</code> or <code>Ask me etc</code>.<br>
+        Or ask it to search for something.
+    </p>
+
+    <h4>Info</h4>
+
+    Running: <span id='running'>False</span><br>
+
+    Result-Phrase: <span id='phrase'></span><br>
+    Result-Match: <span id='match'></span><br>
+    Result-Alternatives: <span id='alt'></span><br>
+
+
+    <br>
+    <br><br>
+    <p>
+        Powered by <a href='https://github.com/TalAter/annyang'>annyang</a>.
+    </p>
+</body>
